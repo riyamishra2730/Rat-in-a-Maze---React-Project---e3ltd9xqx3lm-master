@@ -1,0 +1,55 @@
+
+
+.row{
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: 2px solid black;
+}
+
+.main-Container{
+    display: flex;
+}
+
+.icon{
+    height: 75px;
+    width: 75px;
+}   
+
+.top {
+    margin-left: 0px;
+}
+
+.bottom{
+    margin-top: 250px;
+    margin-left: -80px;
+}
+
+.Container{
+    display: inline;
+    margin-bottom: 20px;
+    
+}
+
+.Heading{
+    margin-left: 40px;
+    color: #f9f9f9;
+}
+
+.button1 {
+    width: 60%;
+}
+
+button {
+    cursor: pointer;
+}
